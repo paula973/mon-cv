@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Raleway:wght@300&display=swap');
+
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+}
+
+#cv-container {
+    background-color: #fff;
+    width: 1160px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-right: 1px solid #000; /* Bordure à droite */
+}
+
+header {
+    padding: 30px;
+    text-align: start;
+    text-align: center;
+    background-color: #782221;
+    color: #fff;
+}
+
+.name-role-container h1{
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.profile-image {
+    max-width: 150px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Ombre autour de l'image */
+    top: 50%;
+    left: 50%;
+}
+
+
+.section {
+    margin-bottom: 30px;
+}
+
+.info-section {
+    padding: 5px;
+    background-color: #2c1d27;
+}
+
+
+li a { 
+    color: #fff;
+    text-decoration:none;
+    flex: 1;
+}
+
+.info-section ul {
+    padding: 15px;
+    display: flex;
+    
+}
+
+.info-section li {
+    margin-bottom: 10px;
+    display: grid;
+    flex-wrap: wrap;
+    flex: 1;
+    text-align: center;
+}
+
+.two-column {
+    display: flex;
+    justify-content: space-between;
+}
+
+.column_1 {
+    flex: 0 0 30%;
+}
+
+.column_2 {
+    flex: 0 0 65%;
+}
+
+.column_1 {
+    background-color: #782221;
+    padding: 8px 12px;
+    border-radius: 0px;
+    text-align: justify;
+}
+
+.column_2 {
+    background-color: #fff;
+    padding: 8px 12px;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+footer {
+    border: 1px ; padding: 5px;
+    text-align: center;
+    background-color: #782221;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+social-links{
+
+    background-color: #fff;
+    border-radius: 30%;
+    flex: 1;
+
+}
+
+/* Ajout de styles spécifiques pour la rubrique "À Propos" */
+.column_1 p {
+    margin-left: 15px;
+    margin-right: 50px;
+    text-indent: 30px; /* Indentation de la première ligne du paragraphe */
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.column_2 h2 {
+    text-indent: 10px; 
+    padding: 5px;
+    margin-right: 50px;
+    background-color: #dbc2a4;
+
+}
+
+.column_1 ul li {
+    text-indent: -3px; /* Indentation de la première ligne du paragraphe */
+    color: #fff;
+
+}
+
+.column_1 h2 {
+    text-indent: 20px; 
+    margin-right: 50px;
+    padding: 5px;
+    margin-left: -12px;
+    background-color: #dbc2a4;
+    font-family: 'Raleway', sans-serif;
+    
+
+}
+
+/* Styles pour l'image ajoutée */
+.additional-image {
+    max-width: 100%; /* La largeur maximale est la largeur du conteneur parent */
+    border-radius: 8px; /* Coins arrondis */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Ombre autour de l'image */
+}
